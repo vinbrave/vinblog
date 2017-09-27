@@ -1,0 +1,270 @@
+---------------------------------------------------------------
+[ 2017-09-27T10:01:25+08:00 ] ::1 ::1 GET /GitHub/vinblog/public/index.php/admin/index/login
+[ info ] localhost/GitHub/vinblog/public/index.php/admin/index/login [运行时间：0.078830s][吞吐率：12.69req/s] [内存消耗：2,548.56kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000237s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004916s ]
+[ info ] [ LANG ] G:\www\GitHub\vinblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'read-mode=false; pgv_pvi=5262815232; CNZZDATA1256104530=2075124999-1493339081-%7C1493339081; Hm_lvt_b5ac4df71f618213aed3330d279a1ee3=1493873393; CNZZDATA1618465=cnzz_eid%3D2058661359-1493869480-http%253A%252F%252Flocalhost%252F%26ntime%3D1493869480; CNZZDATA1254932726=1198052940-1473380410-http%253A%252F%252Flocalhost%252F%7C1494314554; Idea-95ebc078=ef98f25a-00de-4d50-8e5e-323447c43083; admin_username=admin; Hm_lvt_ca6d26b4d71d42e9585368062849d8f7=1506388488; _ga=GA1.1.1936260446.1491472485; _gid=GA1.1.824757095.1506387455; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1506477065; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1506477065; PHPSESSID=i1vc8a9v03bc23iseicfi2m7m5',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/GitHub/vinblog/public/install.php',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] G:\www\GitHub\vinblog\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001090s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] G:\www\GitHub\vinblog\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ G:\www\GitHub\vinblog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] G:\www\GitHub\vinblog\public/../application/common\view\tpl\dispatch_jump.tpl [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'code',
+  6 => 'msg',
+  7 => 'data',
+  8 => 'url',
+  9 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000745s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T10:01:30+08:00 ] ::1 ::1 GET /GitHub/vinblog/public/index.php/admin/index/index
+[ info ] localhost/GitHub/vinblog/public/index.php/admin/index/index [运行时间：1.423402s][吞吐率：0.70req/s] [内存消耗：3,584.27kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000109s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002953s ]
+[ info ] [ LANG ] G:\www\GitHub\vinblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'read-mode=false; pgv_pvi=5262815232; CNZZDATA1256104530=2075124999-1493339081-%7C1493339081; Hm_lvt_b5ac4df71f618213aed3330d279a1ee3=1493873393; CNZZDATA1618465=cnzz_eid%3D2058661359-1493869480-http%253A%252F%252Flocalhost%252F%26ntime%3D1493869480; CNZZDATA1254932726=1198052940-1473380410-http%253A%252F%252Flocalhost%252F%7C1494314554; Idea-95ebc078=ef98f25a-00de-4d50-8e5e-323447c43083; admin_username=admin; Hm_lvt_ca6d26b4d71d42e9585368062849d8f7=1506388488; _ga=GA1.1.1936260446.1491472485; _gid=GA1.1.824757095.1506387455; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1506477065; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1506477065; PHPSESSID=i1vc8a9v03bc23iseicfi2m7m5',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/GitHub/vinblog/public/index.php/admin/index/login',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] G:\www\GitHub\vinblog\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000653s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LANG ] G:\www\GitHub\vinblog\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ G:\www\GitHub\vinblog\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] G:\www\GitHub\vinblog\public/../application/admin\view\index\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000687s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.013748s ] mysql:dbname=vinblog;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.030698s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.001132s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.015256s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001119s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_auth_rule` WHERE  `ismenu` = 1 ORDER BY `weigh`  desc [ RunTime:0.001320s ]
+---------------------------------------------------------------
+[ 2017-09-27T10:01:30+08:00 ] ::1 ::1 GET /GitHub/vinblog/public/index.php/admin/ajax/lang?callback=define&controllername=index&v=1506477688
+[ info ] localhost/GitHub/vinblog/public/index.php/admin/ajax/lang?callback=define&controllername=index&v=1506477688 [运行时间：0.043304s][吞吐率：23.09req/s] [内存消耗：2,443.82kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000063s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002129s ]
+[ info ] [ LANG ] G:\www\GitHub\vinblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'read-mode=false; pgv_pvi=5262815232; CNZZDATA1256104530=2075124999-1493339081-%7C1493339081; Hm_lvt_b5ac4df71f618213aed3330d279a1ee3=1493873393; CNZZDATA1618465=cnzz_eid%3D2058661359-1493869480-http%253A%252F%252Flocalhost%252F%26ntime%3D1493869480; CNZZDATA1254932726=1198052940-1473380410-http%253A%252F%252Flocalhost%252F%7C1494314554; Idea-95ebc078=ef98f25a-00de-4d50-8e5e-323447c43083; admin_username=admin; Hm_lvt_ca6d26b4d71d42e9585368062849d8f7=1506388488; _ga=GA1.1.1936260446.1491472485; _gid=GA1.1.824757095.1506387455; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1506477065; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1506477065; PHPSESSID=i1vc8a9v03bc23iseicfi2m7m5',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/GitHub/vinblog/public/index.php/admin/index/index',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'v' => '1506477688',
+)
+[ info ] [ LANG ] G:\www\GitHub\vinblog\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000552s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ G:\www\GitHub\vinblog\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] G:\www\GitHub\vinblog\public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000455s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-27T10:01:32+08:00 ] ::1 ::1 GET /GitHub/vinblog/public/index.php/admin/dashboard?addtabs=1
+[ info ] localhost/GitHub/vinblog/public/index.php/admin/dashboard?addtabs=1 [运行时间：1.166388s][吞吐率：0.86req/s] [内存消耗：3,445.38kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000107s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005404s ]
+[ info ] [ LANG ] G:\www\GitHub\vinblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'read-mode=false; pgv_pvi=5262815232; CNZZDATA1256104530=2075124999-1493339081-%7C1493339081; Hm_lvt_b5ac4df71f618213aed3330d279a1ee3=1493873393; CNZZDATA1618465=cnzz_eid%3D2058661359-1493869480-http%253A%252F%252Flocalhost%252F%26ntime%3D1493869480; CNZZDATA1254932726=1198052940-1473380410-http%253A%252F%252Flocalhost%252F%7C1494314554; Idea-95ebc078=ef98f25a-00de-4d50-8e5e-323447c43083; admin_username=admin; Hm_lvt_ca6d26b4d71d42e9585368062849d8f7=1506388488; _ga=GA1.1.1936260446.1491472485; _gid=GA1.1.824757095.1506387455; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1506477065; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1506477065; PHPSESSID=i1vc8a9v03bc23iseicfi2m7m5',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/GitHub/vinblog/public/index.php/admin/dashboard?ref=addtabs',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] G:\www\GitHub\vinblog\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000606s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] G:\www\GitHub\vinblog\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ G:\www\GitHub\vinblog\application\admin\controller\Dashboard.php ]
+[ info ] [ VIEW ] G:\www\GitHub\vinblog\public/../application/admin\view\dashboard\index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totalviews',
+  7 => 'totalorder',
+  8 => 'totalorderamount',
+  9 => 'todayuserlogin',
+  10 => 'todayusersignup',
+  11 => 'todayorder',
+  12 => 'unsettleorder',
+  13 => 'sevendnu',
+  14 => 'sevendau',
+  15 => 'paylist',
+  16 => 'createlist',
+  17 => 'uploadmode',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000589s ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:1.003749s ] mysql:dbname=vinblog;host=localhost;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_group_access` [ RunTime:0.027724s ]
+[ sql ] [ SQL ] SELECT `AuthGroupAccess`.`uid`,`AuthGroupAccess`.`group_id`,`AuthGroup`.`id`,`AuthGroup`.`pid`,`AuthGroup`.`name`,`AuthGroup`.`rules` FROM `fa_auth_group_access` `AuthGroupAccess` LEFT JOIN `fa_auth_group` `AuthGroup` ON `AuthGroupAccess`.`group_id`=`AuthGroup`.`id` WHERE  (  AuthGroupAccess.uid='1' and AuthGroup.status='normal' ) [ RunTime:0.000998s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_auth_rule` [ RunTime:0.018845s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`condition`,`icon`,`name`,`title`,`ismenu` FROM `fa_auth_rule` WHERE  `status` = 'normal' [ RunTime:0.001206s ]
+[ sql ] [ SQL ] SELECT `title`,`remark` FROM `fa_auth_rule` WHERE  `name` = 'dashboard' LIMIT 1 [ RunTime:0.000530s ]
+---------------------------------------------------------------
+[ 2017-09-27T10:01:32+08:00 ] ::1 ::1 GET /GitHub/vinblog/public/index.php/admin/ajax/lang?callback=define&controllername=dashboard&v=1506477690
+[ info ] localhost/GitHub/vinblog/public/index.php/admin/ajax/lang?callback=define&controllername=dashboard&v=1506477690 [运行时间：0.046461s][吞吐率：21.52req/s] [内存消耗：2,443.29kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000060s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002225s ]
+[ info ] [ LANG ] G:\www\GitHub\vinblog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'read-mode=false; pgv_pvi=5262815232; CNZZDATA1256104530=2075124999-1493339081-%7C1493339081; Hm_lvt_b5ac4df71f618213aed3330d279a1ee3=1493873393; CNZZDATA1618465=cnzz_eid%3D2058661359-1493869480-http%253A%252F%252Flocalhost%252F%26ntime%3D1493869480; CNZZDATA1254932726=1198052940-1473380410-http%253A%252F%252Flocalhost%252F%7C1494314554; Idea-95ebc078=ef98f25a-00de-4d50-8e5e-323447c43083; admin_username=admin; Hm_lvt_ca6d26b4d71d42e9585368062849d8f7=1506388488; _ga=GA1.1.1936260446.1491472485; _gid=GA1.1.824757095.1506387455; Hm_lvt_f8d0a8c400404989e195270b0bbf060a=1506477065; Hm_lpvt_f8d0a8c400404989e195270b0bbf060a=1506477065; PHPSESSID=i1vc8a9v03bc23iseicfi2m7m5',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'http://localhost/GitHub/vinblog/public/index.php/admin/dashboard?addtabs=1',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'v' => '1506477690',
+)
+[ info ] [ LANG ] G:\www\GitHub\vinblog\public/../application/admin\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000568s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ G:\www\GitHub\vinblog\application\admin\controller\Ajax.php ]
+[ info ] [ LANG ] G:\www\GitHub\vinblog\public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000570s ]
+[ info ] [ LOG ] INIT File
